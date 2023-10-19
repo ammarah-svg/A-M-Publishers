@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  background-color: #f0f2f5b4;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+nav img {
+  display: block;
+}
+.nav-btn,
+.call-btn,
+.sign-in-btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  transition: all 0.7s;
+}
+
+nav img:hover {
+  cursor: pointer;
+}
+nav li:hover {
+  cursor: pointer;
+  color: brown;
+}
+nav button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+.nav-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  border: solid black 2px;
+}
+.nav-li {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  text-transform: capitalize;
+}
+
+.nav-bt {
+  width: 100px;
+  height: 40px;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 80px;
+  background-attachment: fixed;
+  background-image: url(https://cdn.theatlantic.com/thumbor/PrOcdCpXQzbuOnuMik9htiWlYgk=/249x0:1749x1125/1200x900/media/img/mt/2022/06/Atl_books_soul_v1/original.png);
+  position: relative;
+}
+.img-text {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 300px;
+  font-size: 60px;
+  text-shadow: 5px 5px black;
+}
+
+.card-container {
+  width: 750px;
+  height: 90vh;
+  margin: auto;
+}
+p {
+  text-align: justify;
+}
+.text-part {
+  width: 35%;
+  color: white;
+}
+.body-img {
+  background-size: cover;
+}
+
+.central-text {
+  text-align: center;
+}
+
+.central-hd,
+.central-subhd,
+.central-para {
+  padding: 10px 280px;
+  transition: all 0.4s;
+}
+.central-hd:hover {
+  color: rgba(151, 42, 42, 0.973);
+}
+
+.central-para {
+  margin-bottom: 40px;
+}
+
+span {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+span:hover {
+  color: brown;
+}
+span:nth-child(2):hover {
+  color: cyan;
+}
+span:nth-child(3):hover {
+  color: pink;
+}
+.cards-container {
+  margin: auto;
+  width: 800px;
+  height: 600px;
+  position: relative;
+}
+.card {
+  width: 350px;
+  height: 250px;
+  transition: all 3s;
+}
+.card:nth-child(1) {
+  border-top: silver 2px solid;
+  border-left: silver 2px solid;
+  border-radius: 55px 0px 0px 0px;
+}
+.card:nth-child(2) {
+  border-radius: 0px 55px 0px 0px;
+  position: absolute;
+  top: -0.5px;
+  left: 400px;
+}
+
+.card:nth-child(4) {
+  border-right: silver 2px solid;
+  border-bottom: silver 2px solid;
+  border-radius: 0px 0px 55px 0px;
+  position: absolute;
+  top: 250px;
+  left: 400px;
+}
+.card img {
+  margin: auto;
+  display: block;
+  padding-block: 20px;
+}
+
+.cards-container:hover .card2 {
+  border-bottom: silver 2px solid;
+  border-left: silver 2px solid;
+  border-radius: 0px 0px 0px 55px;
+  transform: translateX(-400px) translateY(255px);
+  opacity: 1;
+}
+.cards-container:hover .card3 {
+  transform: translateX(400px) translateY(-255px);
+  border-right: silver 2px solid;
+  border-top: silver 2px solid;
+  border-radius: 0px 55px 0px 0px;
+  opacity: 1;
+}
+
+.form-wrapper {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  padding-bottom: 200px;
+}
+
+.form-details {
+  width: 300px;
+  height: 440px;
+  background: linear-gradient(to right, black, rgb(163, 162, 162), #28454e);
+  padding: 44px 24px 46px 24px;
+  border-radius: 140px 0 0 0;
+  margin: auto;
+}
+.form-hd {
+  color: white;
+  font-size: 38px;
+  display: block;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pass,
+.email {
+  margin-block: 20px;
+}
+.pass,
+.email,
+input {
+  width: 250px;
+  height: 35px;
+  padding-inline: 16px;
+  border-radius: 12px;
+  border: none;
+
+  display: block;
+}
+label {
+  color: white;
+  margin-top: 10px;
+}
+.sign-in-btn {
+  display: block;
+  margin-top: 50px;
+}
+.form-vid {
+  background-size: contain;
+}
+.author-section {
+  display: flex;
+  gap: 60px;
+  width: 65%;
+  margin: auto;
+
+  position: relative;
+}
+.author-img {
+  width: 150px;
+  height: 150px;
+  border: black solid 1px;
+  border-radius: 50%;
+  position: relative;
+  top: -50px;
+  left: 50px;
+  background-image: url(./assets/author.jpg);
+  background-size: contain;
+}
+.author {
+  width: 250px;
+  height: 400px;
+  border: black solid 2px;
+  border-radius: 15px;
+  margin-block: 80px;
+}
+.author-hd {
+  text-align: center;
+  padding-top: 30px;
+}
+.author-subhd {
+  text-align: center;
+}
+.author-para {
+  text-align: center;
+  padding-block: 20px;
+}
+.author-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+}
+.author-btn:hover {
+  cursor: pointer;
+  color: #28454e;
+}
+footer {
+  background-color: black;
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+.call-section {
+  width: 70%;
+  height: 45%;
+  position: absolute;
+  top: -70px;
+  left: 190px;
+  background: silver;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+}
+.call-btn:hover {
+  cursor: pointer;
+}
+.call-section:hover .call-btn {
+  background-color: black;
+  color: white;
+}
+.ft-list {
+  width: 40%;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  padding-top: 260px;
+  margin: auto;
+  cursor: pointer;
+}
+.address {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding-block: 25px;
+}
